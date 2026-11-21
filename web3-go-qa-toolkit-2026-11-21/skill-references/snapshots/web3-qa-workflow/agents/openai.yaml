@@ -1,0 +1,4 @@
+interface:
+  display_name: "Web3 测试工作流"
+  short_description: "按交易与资金规则生成覆盖矩阵、数据计划和可追溯执行证据"
+  default_prompt: "使用 $web3-qa-workflow 分析我的需求，登记覆盖矩阵和测试数据计划，停在覆盖评审。"

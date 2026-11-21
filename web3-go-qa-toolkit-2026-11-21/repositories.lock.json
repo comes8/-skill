@@ -1,0 +1,191 @@
+{
+  "archived_at": "2026-11-21",
+  "scope": "Reference snapshots; not full forks or installation record",
+  "repositories": [
+    {
+      "repository": "go-testfixtures/testfixtures",
+      "url": "https://github.com/go-testfixtures/testfixtures",
+      "phase": "optional",
+      "purpose": "隔离测试库数据夹具；会清理已有数据",
+      "commit": "41332ec739cb1e88d7b7f22ba17a321c6326cd2d",
+      "default_branch": "master",
+      "license": "MIT",
+      "archived": false,
+      "source_files": [
+        {
+          "path": "LICENSE",
+          "blob_sha": "894ee77ed2f71239db664b36ccfb71fcfd81e5cb"
+        },
+        {
+          "path": "README.md",
+          "blob_sha": "eddf26f4012b4a8bc2fd8516332b2b590261a7ed"
+        }
+      ]
+    },
+    {
+      "repository": "foundry-rs/foundry",
+      "url": "https://github.com/foundry-rs/foundry",
+      "phase": "later",
+      "purpose": "Anvil本地链与合约专项",
+      "commit": "c8f59d8903f8e31f128643f5c546410e2950217c",
+      "default_branch": "master",
+      "license": "Apache-2.0",
+      "archived": false,
+      "license_note": "Both LICENSE-APACHE and LICENSE-MIT preserved",
+      "source_files": [
+        {
+          "path": "LICENSE-APACHE",
+          "blob_sha": "a7b8b5e6a6dc555ad43165aa5b8f65c120032468"
+        },
+        {
+          "path": "LICENSE-MIT",
+          "blob_sha": "38bfa706247e8844c1cca9473ddf0262cde00c21"
+        },
+        {
+          "path": "README.md",
+          "blob_sha": "af4068f47acea84ad692d1652fd804b2e6aee202"
+        }
+      ]
+    },
+    {
+      "repository": "jaegertracing/jaeger",
+      "url": "https://github.com/jaegertracing/jaeger",
+      "phase": "later",
+      "purpose": "调用链排查",
+      "commit": "f9046f3dadd6778e0b2995bc6b41fdf35f9381b1",
+      "default_branch": "main",
+      "license": "Apache-2.0",
+      "archived": false,
+      "source_files": [
+        {
+          "path": "LICENSE",
+          "blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+        },
+        {
+          "path": "README.md",
+          "blob_sha": "3da33bcff958388e892dfe2aedf0b3bb62aed049"
+        }
+      ]
+    },
+    {
+      "repository": "microcks/microcks",
+      "url": "https://github.com/microcks/microcks",
+      "phase": "reference",
+      "purpose": "API Mock与契约平台参考",
+      "commit": "1c38f795e1a9c45024faa0f527c4986931ff47f3",
+      "default_branch": "master",
+      "license": "Apache-2.0",
+      "archived": false,
+      "source_files": [
+        {
+          "path": "LICENSE",
+          "blob_sha": "e06d2081865a766a8668acc12878f98b27fc9ea0"
+        },
+        {
+          "path": "README.md",
+          "blob_sha": "3db9e5e934d61da1dd878cc1ac844d9d78273f26"
+        }
+      ]
+    },
+    {
+      "repository": "testcontainers/testcontainers-go",
+      "url": "https://github.com/testcontainers/testcontainers-go",
+      "phase": "core",
+      "purpose": "准备隔离的真实测试依赖",
+      "commit": "f31e98d4ee9b8432433171505b6652a42551bf63",
+      "default_branch": "main",
+      "license": "MIT",
+      "archived": false,
+      "source_files": [
+        {
+          "path": "LICENSE",
+          "blob_sha": "607a9c3c46670d2d2cec60ec2ff4c78952bac773"
+        },
+        {
+          "path": "README.md",
+          "blob_sha": "ea21c63871dc0323d61ce7074e3a3621ee884fe1"
+        }
+      ]
+    },
+    {
+      "repository": "uber-go/mock",
+      "url": "https://github.com/uber-go/mock",
+      "phase": "optional",
+      "purpose": "Go接口级单元测试Mock",
+      "commit": "d8c3a2a4df48dda38a9e157604c09de92043903c",
+      "default_branch": "main",
+      "license": "Apache-2.0",
+      "archived": false,
+      "source_files": [
+        {
+          "path": "LICENSE",
+          "blob_sha": "d645695673349e3947e8e5ae42332d0ac3164cd7"
+        },
+        {
+          "path": "README.md",
+          "blob_sha": "4ab94d8dec64e0da42cacc144be0a0e1575a3e0c"
+        }
+      ]
+    },
+    {
+      "repository": "Shopify/toxiproxy",
+      "url": "https://github.com/Shopify/toxiproxy",
+      "phase": "later",
+      "purpose": "网络故障增强",
+      "commit": "49299d8838525126e09c85ebe0ba89940a3261e5",
+      "default_branch": "main",
+      "license": "MIT",
+      "archived": false,
+      "source_files": [
+        {
+          "path": "LICENSE",
+          "blob_sha": "04d0a14b1676d99769047b72b2cf46539b80661f"
+        },
+        {
+          "path": "README.md",
+          "blob_sha": "cb6c92515469510524c4f5b23d3270ae6685d34b"
+        }
+      ]
+    },
+    {
+      "repository": "gotestyourself/gotestsum",
+      "url": "https://github.com/gotestyourself/gotestsum",
+      "phase": "core",
+      "purpose": "Go测试执行、JSON与JUnit报告",
+      "commit": "3cf14356a16c7931cfeacd7dfee585527618df3d",
+      "default_branch": "main",
+      "license": "Apache-2.0",
+      "archived": false,
+      "source_files": [
+        {
+          "path": "LICENSE",
+          "blob_sha": "d645695673349e3947e8e5ae42332d0ac3164cd7"
+        },
+        {
+          "path": "README.md",
+          "blob_sha": "90e8a8a5856edda0ba2dc94202ef90ca93cedb83"
+        }
+      ]
+    },
+    {
+      "repository": "k1LoW/runn",
+      "url": "https://github.com/k1LoW/runn",
+      "phase": "reference",
+      "purpose": "场景编排参考，不与Go主线重复维护",
+      "commit": "3c44ca762c908ef355203ea846fd796988a7f9ff",
+      "default_branch": "main",
+      "license": "MIT",
+      "archived": false,
+      "source_files": [
+        {
+          "path": "LICENSE",
+          "blob_sha": "d91acf30b13660f1c7a6b2e487a6b4ff7b4c97ab"
+        },
+        {
+          "path": "README.md",
+          "blob_sha": "08d589295de72a81f77985e335225dcf1fefe23b"
+        }
+      ]
+    }
+  ]
+}
